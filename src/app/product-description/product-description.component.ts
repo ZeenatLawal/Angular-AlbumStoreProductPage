@@ -8,8 +8,6 @@ import { ProductService } from '../product.service';
 })
 export class ProductDescriptionComponent implements OnInit {
 
-  albumInfo;
-
   constructor(private _productService: ProductService) { }
 
   ngOnInit() {
